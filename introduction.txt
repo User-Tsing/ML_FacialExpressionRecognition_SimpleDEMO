@@ -1,0 +1,15 @@
+程序：人脸表情识别（极简不保真版）
+
+directed by STAssn
+
+数据集：fer2013，CK+
+
+模型：CNN(tensorflow)
+
+涉及模块：jupyter(步进运行),tensorflow(深度学习小模型),PyQt5(界面设计),fer(表情识别API),OpenCV(计算机视觉),numpy(数学运算),pandas(表格处理),dlib(图像处理)
+
+模块版本见requirements.txt（很多项目可以直接用这个配置环境：pip install -r requirements.txt，第一次玩这个建议还是自己下，而且好像不太准确？）
+
+计算机运行main.py查看结果，使用train.py的函数训练模型（模型可自定义，数据集一种是.csv形式，一种是.png形式）
+
+运行时fer可能报错没有moviepy.editor模块，顺着点进去把.editor删了就好了。
